@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #7c5dfa;
+  --secondary-color: #fff;
+  --background-color: rgb(20, 22, 37);
+  --text-color: rgb(223, 227, 250);
+  --card-background-color: rgb(30, 33, 56);
+  --card-border-radius: 25px;
+  --card-padding: 20px;
+  --card-margin: 20px;
+  --card-width: 100%;
+  --card-height: auto;
+  --card-display: flex;
+  --card-flex-direction: row;
+  --card-justify-content: space-between;
+  --card-align-items: center;
+  --card-gap: 20px;
+  --card-background-color-2: rgb(31, 43, 61);
+  --card-background-color-3: rgb(39, 43, 67);
+  --card-background-color-4: rgb(236, 87, 87);
+  --card-background-color-5: rgb(67, 58, 134);
+  --card-background-color-6: rgb(38, 41, 69);
+  --card-background-color-7: #000;
+}
