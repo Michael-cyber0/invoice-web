@@ -206,8 +206,14 @@ button {
 }
 /* styles.css */
 body {
+  width: auto;
   font-family: Arial, sans-serif;
   /* padding: 50px; */
+}
+@media (max-width: 500px) {
+  body {
+    width: 400px;
+  }
 }
 
 .dropdown {
@@ -284,6 +290,11 @@ a {
   border-bottom-right-radius: 30px;
   background-color: var(--card-background-color);
 }
+@media (max-width: 500px) {
+  .content {
+    width: 80px;
+  }
+}
 .first-image {
   display: var(--card-display);
   justify-content: center;
@@ -293,6 +304,12 @@ a {
   background-color: var(--main-color);
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+@media (max-width: 500px) {
+  .first-image {
+    width: 80px;
+    height: 80px;
+  }
 }
 hr {
   display: var(--card-display);
@@ -313,14 +330,21 @@ hr {
 .container-invoice {
   width: 90%;
   margin-top: 50px;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
 }
 .invoice {
   display: var(--card-display);
+  flex-direction: row;
   justify-content: var(--card-justify-content);
   align-items: var(--card-align-items);
   margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .invoice {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 h2 {
